@@ -7,13 +7,19 @@
 </head>
 <body>
       
-  <h2>Western Provinces</h2>
-  <p>Click on the images to get more infromation.</p>
+    <h2>Western Provinces</h2>
+    <p>Click on the images to get more infromation.</p>
   
-  <img src="pictures/Main_map_pic.png" alt="Main Map" usemap="#map">
+    <img src="pictures/west_map.png" alt="Western Provinces Map" usemap="#map">
   
-  <map name="map">
-    <area shape="rect" coords="200,400,705,656" alt="Western Provinces" href="index.html">
-  </map>
+    <map name="map">
+        <area shape="circle" coords="388,611,23" alt="Fish" onclick="fish_alert()">
+    </map>
+
+    <script>
+    function fish_alert() {
+      alert("You clicked the fish!");
+    }
+    </script>
 </body>
 </html>
